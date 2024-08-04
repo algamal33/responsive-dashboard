@@ -18,85 +18,85 @@ const linke7 = document.getElementById("link7");
 const linke8 = document.getElementById("link8");
 const linke9 = document.getElementById("link9");
 function HomeHover() {
-    HomeImage.setAttribute("src", "../image/home 2.svg");
+    HomeImage.setAttribute("src", "./image/home 2.svg");
     linke.style.color = "#2D60FF";
 }
 function DisHomeHover() {
-    HomeImage.setAttribute("src", "../image/home.svg");
+    HomeImage.setAttribute("src", "./image/home.svg");
     linke.style.color = "#B1B1B1";
 }
 // =============================================================
 function TransferHover() {
-    TransferImage.setAttribute("src", "../image/Transfer 2.svg");
+    TransferImage.setAttribute("src", "./image/Transfer 2.svg");
     linke2.style.color = "#2D60FF";
 }
 function DisTransferHover() {
-    TransferImage.setAttribute("src", "../image/Transfer 1.svg");
+    TransferImage.setAttribute("src", "./image/Transfer 1.svg");
     linke2.style.color = "#B1B1B1";
 }
 // =============================================================
 function UserHover() {
-    UserImage.setAttribute("src", "../image/user 3 2.svg");
+    UserImage.setAttribute("src", "./image/user 3 2.svg");
     linke3.style.color = "#2D60FF";
 }
 function DisUserHover() {
-    UserImage.setAttribute("src", "../image/user 3 1.svg");
+    UserImage.setAttribute("src", "./image/user 3 1.svg");
     linke3.style.color = "#B1B1B1";
 }
 // =============================================================
 function EconomicHover() {
-    EconomicImage.setAttribute("src", "../image/economic-investment 2.svg");
+    EconomicImage.setAttribute("src", "./image/economic-investment 2.svg");
     linke4.style.color = "#2D60FF";
 }
 function DisEconomicHover() {
-    EconomicImage.setAttribute("src", "../image/economic-investment 1.svg");
+    EconomicImage.setAttribute("src", "./image/economic-investment 1.svg");
     linke4.style.color = "#B1B1B1";
 }
 // =============================================================
 function CreditHover() {
-    CreditImage.setAttribute("src", "../image/credit-card 2.svg");
+    CreditImage.setAttribute("src", "./image/credit-card 2.svg");
     CreditImage.style.width = "25px";
     linke5.style.color = "#2D60FF";
 }
 function DisCreditHover() {
-    CreditImage.setAttribute("src", "../image/credit-card 1.svg");
+    CreditImage.setAttribute("src", "./image/credit-card 1.svg");
     CreditImage.style.height = "25px";
     linke5.style.color = "#B1B1B1";
 }
 // =============================================================
 function LoanHover() {
-    LoanImage.setAttribute("src", "../image/loan 2.svg");
+    LoanImage.setAttribute("src", "./image/loan 2.svg");
     linke6.style.color = "#2D60FF";
 }
 function DisLoanHover() {
-    LoanImage.setAttribute("src", "../image/loan 1.svg");
+    LoanImage.setAttribute("src", "./image/loan 1.svg");
     linke6.style.color = "#B1B1B1";
 }
 // =============================================================
 function ServiceHover() {
-    ServiceImage.setAttribute("src", "../image/service 2.svg");
+    ServiceImage.setAttribute("src", "./image/service 2.svg");
     linke7.style.color = "#2D60FF";
 }
 function DisServiceHover() {
-    ServiceImage.setAttribute("src", "../image/service 1.svg");
+    ServiceImage.setAttribute("src", "./image/service 1.svg");
     linke7.style.color = "#B1B1B1";
 }
 // =============================================================
 function EconometricsHover() {
-    EconometricsImage.setAttribute("src", "../image/econometrics 2.svg");
+    EconometricsImage.setAttribute("src", "./image/econometrics 2.svg");
     linke8.style.color = "#2D60FF";
 }
 function DisEconometricsHover() {
-    EconometricsImage.setAttribute("src", "../image/econometrics 1.svg");
+    EconometricsImage.setAttribute("src", "./image/econometrics 1.svg");
     linke8.style.color = "#B1B1B1";
 }
 // =============================================================
 function SettingsHover() {
-    SettingsImage.setAttribute("src", "../image/settings solid 2.svg");
+    SettingsImage.setAttribute("src", "./image/settings solid 2.svg");
     linke9.style.color = "#2D60FF";
 }
 function DisSettingsHover() {
-    SettingsImage.setAttribute("src", "../image/settings solid 1.svg");
+    SettingsImage.setAttribute("src", "./image/settings solid 1.svg");
     linke9.style.color = "#B1B1B1";
 }
 // chart from apexcharts
