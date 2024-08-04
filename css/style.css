@@ -435,3 +435,49 @@ header img[alt="profile-image"]{
     height: 276px;
 }
 /* end main content */
+/* Start Transactions Page */
+.transactions-page .holder {
+    margin: 20px 80px;
+}
+
+/* Start Analytics Section */
+.transactions-page .holder .analytics {
+    background-color: white;
+    width: 350px;
+    height: 225px;
+    border-radius: 25px;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+}
+.transactions-page .holder .analytics li {
+    text-align: center;
+}
+.transactions-page .holder .analytics li .column {
+    width: 37px;
+    border-radius: 10px;
+    background-color: #EDF0F7;
+    margin-bottom: 10px;
+}
+.transactions-page .holder .analytics li .column.lighting {
+    background-color: #16DBCC;
+    box-shadow: 0 0 35px 0 #12887e52;
+    position: relative;
+}
+.transactions-page .holder .analytics li .column.lighting::before {
+    content: "$12,500";
+    font-family: inter;
+    font-weight: 500;
+    color: #343C6A;
+    font-size: 14px;
+    left: -12.5px;
+    top: -22px;
+    position: absolute;
+}
+.transactions-page .holder .analytics li span {
+    color: #718EBF;
+    font-size: 13px;
+}
+/* End Transactions  Page */
