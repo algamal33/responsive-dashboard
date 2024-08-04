@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+body{
+    display: flex;
+    width: 100%;
+    background-color: #F5F7FA;
+    height: 100vh;
+}
+/* start nav bat */
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DFEAF2;
+    
+}
+.navBg{
+    background-color: #343C6A;
+    width: 250px;
+    height: 100vh;
+    flex-shrink: 0;
+}
+.logo{
+    display: flex;
+    width: 172px;
+    height: 38px;
+    margin: 31px 0 22px 38px;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+.logo h1{
+    font-family: montHavy;
+    text-transform: capitalize;
+    font-size: 20px;
+    word-spacing: -5px;
+    color: #343C6A;
+}
+@font-face {
+    font-family: montHavy;
+    src: url(../fonts/Mont-HeavyDEMO.otf);
+}
+nav ul{
+    margin-left: 44px;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 39px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #B1B1B1;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Inter;
+    gap: 26px;
+}
+.active a{
+    color: #2D60FF;
+}
+.active{
+    position: relative;
+    width: 100%;
+}
+.active::before{
+    content: "";
+    width: 6px;
+    height: 60px;
+    background-color: #2D60FF;
+    position: absolute;
+    border-radius: 0 8px 8px 0;
+    left: -44px;
+    top: 50%;
+    translate: 0 -50%;
+}
+/* end nav bat */
+/* start header */
+.content{
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    background-color: white;
+    height: 61px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DFEAF2;
+    padding: 20px 40px;
+}
+header h2{
+    font-family: Inter;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    color: #343C6A;
+}
+.contentHead{
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    width: 255px;
+    height: 50px;
+    border-radius: 40px;
+    gap: 15px;
+}
+.search input{
+    border: none;
+    background-color: #F5F7FA;
+    color: #8BA3CB;
+    font-size: 15px;
+    padding: 1px;
+    height: 18px;
+    width: 153px;
+}
+.search input:focus{
+    caret-color: #8BA3CB;
+    outline: none;
+}
+.search input::placeholder{
+    color: #8BA3CB;
+    font-size: 15px;
+}
+header .setting{
+    width: 50px;
+    height: 50px;
+    background-color: #F5F7FA;
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .setting a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .notific{
+    width: 50px;
+    height: 50px;
+    background-color: #F5F7FA;
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a .notific{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img[alt="profile-image"]{
+    clip-path: circle();
+}
+/* end header */
+/* start main content */
+.overview{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 40px;
+    gap: 24px;
+}
+.info1, .info2, .info3{
+    display: flex;
+    gap: 30px;
+}
+/* section one */
+.cardsInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 730px;
+    height: 282px;
+}
+.cardsInfo .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 27px;
+}
+.cardsInfo .title .pOne{
+    color: #343C6A;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    font-weight: bold;
+}
+.cardsInfo .title .pTow a{
+    color: #343C6A;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cardsInfo .cards{
+    display: flex;
+    width: 100%;
+    height: 235px;
+    justify-content: space-between;
+}
+.cardsInfo .cards .cardOne ,.cardsInfo .cards .cardTow{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.cardOne{
+    background-image:linear-gradient(125deg, #4C49ED, #0A06F4) ;
+}
+.cardTow{
+    background-color: white;
+    border: solid 1px #DFEAF2;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    height: 165px;
+    padding: 24px 26px 35.11px 26px;
+}
+.head .money{
+    display: flex;
+    justify-content: space-between;
+}
+.head .money p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+}
+.cardTow .head .money p{
+    color: black;
+}
+.head .money p strong{
+    font-size: 20px;
+    font-weight: 600;
+}
+.head .ownerInfo{
+    display: flex;
+    gap: 67px;
+}
+.cardTow .head .ownerInfo p{
+    color: black;
+}
+.head .ownerInfo p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.head .ownerInfo p span{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.footer{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+}
+.cardTow .footer{
+    border-top: 1px solid #DFEAF2;
+}
+.footer p{
+    color: white;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cardTow .footer p{
+    color: black;
+}
+.cardOne .footer::before{
+    content: "";
+    background-image: linear-gradient(#FFFFFF,transparent);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    opacity: 15%;
+    z-index: 1;
+} 
+/* section tow */
+.transaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 282px;
+}
+.transaction > p{
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #343C6A;
+    width: 100%;
+}
+.deposit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    height: 235px;
+    width: 302px;
+    padding: 25px 24px;
+    padding-right: 24px;
+}
+.deposit .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5D9;
+    width: 55px;
+    height: 55px;
+    clip-path: circle();
+}
+.deposit > div{
+    display: grid;
+    grid-template-columns: 55px 171px 49px;
+    column-gap: 17px;
+    width: 302px;
+    align-items: center;
+}
+.deposit div .info{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.deposit div .info .from{
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.deposit div .info .date{
+    color: #718EBF;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.deposit .myCard{
+    height: 55px;
+}
+.deposit .myCard span{
+    color: #FF4B4A;
+    font-size: 16px;
+    font-weight: 500;
+    justify-self: flex-end;
+}
+.deposit .paypal span , .receve span{
+    color: #41D4A8;
+    font-size: 16px;
+    font-weight: 500;
+    justify-self: flex-end;
+}
+.deposit .paypal .image{
+    background-color: #E7EDFF;
+}
+.deposit .receve .image{
+    background-color: #DCFAF8;
+}
+/* section three */
+.activity{
+    width: 730px;
+    height: 367px;
+    background-color: #3e00b1;
+}
+/* section four */
+.statistics{
+    width: 350px;
+    height: 367px;
+    background-color: #3e00b1;
+}
+/* section fife */
+.transfer{
+    width: 445px;
+    height: 323px;
+    background-color: #3e00b1;
+}
+/* section six */
+.history{
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 323px;
+    gap: 20px;
+}
+.history p{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #343C6A;
+}
+#chart{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    height: 276px;
+}
+/* end main content */

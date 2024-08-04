@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-EG">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/iconfinder_vector_65_09_473792 1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="image/iconfinder_vector_65_09_473792 1.png" alt="icon finder"><h1>bank dash.</h1></div>
+        <ul>
+            <li class="active"><a href="/" id="link1"><img src="image/home 2.svg" alt="home" id="home">dashboard</a></li>
+            <li onmouseover="TransferHover()" onmouseout="DisTransferHover()"><a href="#" id="link2"><img src="image/transfer 1.svg" alt="Glyph" id="transfer">transactions</a></li>
+            <li onmouseover="UserHover()" onmouseout="DisUserHover()"><a href="#" id="link3"><img src="image/user 3 1.svg" alt="user" id="User">accounts</a></li>
+            <li onmouseover="EconomicHover()" onmouseout="DisEconomicHover()"><a href="#" id="link4"><img src="image/economic-investment 1.svg" alt="economic-investment" id="Economic">investments</a></li>
+            <li onmouseover="CreditHover()" onmouseout="DisCreditHover()"><a href="#" id="link5"><img src="image/credit-card 1.svg" alt="credit-card" id="Credit">credit cards</a></li>
+            <li onmouseover="LoanHover()" onmouseout="DisLoanHover()"><a href="#" id="link6"><img src="image/loan 1.svg" alt="loan" id="Loan">loans</a></li>
+            <li onmouseover="ServiceHover()" onmouseout="DisServiceHover()"><a href="#" id="link7"><img src="image/service 1.svg" alt="service" id="Service">services</a></li>
+            <li onmouseover="EconometricsHover()" onmouseout="DisEconometricsHover()"><a href="#" id="link8"><img src="image/econometrics 1.svg" alt="econometrics" id="Econometrics">my privileges</a></li>
+            <li onmouseover="SettingsHover()" onmouseout="DisSettingsHover()"><a href="#" id="link9"><img src="image/settings solid 1.svg" alt="setting" id="Settings">setting</a></li>
+        </ul>
+    </nav>
+    <div class="navBg"></div>
+    <div class="content">
+        <header>
+            <h2>overview</h2>
+            <div class="contentHead">
+                <div class="search">
+                    <img src="image/magnifying-glass 1.svg" alt="search-icon">
+                    <input type="text" name="search" id="search" placeholder="Search for something">
+                </div>
+                <span class="setting"><a href="#"><img src="image/settings 3.svg" alt="settings"></a></span>
+                <span class="notific"><a href="#"><img src="image/002-notification-1.svg" alt="notigication"></a></span>
+                <img src="image/pexels-christina-morillo-1181690 1.png" alt="profile-image">
+            </div>
+        </header>
+        <div class="overview">
+            <div class="info1">
+                <section class="cardsInfo">
+                    <div class="title">
+                        <p class="pOne">my cards</p>
+                        <p class="pTow"><a href="#">see all</a></p>
+                    </div>
+                    <div class="cards">
+                        <div class="cardOne">
+                            <div class="head">
+                                <div class="money">
+                                    <p>Balance <Strong>$5,756</Strong></p>
+                                    <img src="image/Chip_Card.svg" alt="Chip_Card">
+                                </div>
+                                <div class="ownerInfo">
+                                    <p class="name"><span>card holder</span>eddy cusuma</p>
+                                    <p class="endDate"><span>valid thru</span>12/22</p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <p>3778 **** **** 1234</p>
+                                <img src="image/Group 17.svg" alt="Van Shape">
+                            </div>
+                        </div>
+                        <div class="cardTow">
+                            <div class="head">
+                                <div class="money">
+                                    <p>Balance <Strong>$5,756</Strong></p>
+                                    <img src="image/Chip_Card2.svg" alt="Chip_Card">
+                                </div>
+                                <div class="ownerInfo">
+                                    <p class="name"><span>card holder</span>eddy cusuma</p>
+                                    <p class="endDate"><span>valid thru</span>12/22</p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <p>3778 **** **** 1234</p>
+                                <img src="image/Group 172.svg" alt="Van Shape">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="transaction">
+                    <p>recent transaction</p>
+                    <div class="deposit">
+                        <div class="myCard">
+                            <div class="image"><img src="image/1.svg" alt="my card"></div>
+                            <div class="info">
+                                <p class="from">deposit from my card</p>
+                                <p class="date">28 january 2021</p>
+                            </div>
+                            <span>-$850</span>
+                        </div>
+                        <div class="paypal">
+                            <div class="image"><img src="image/Vector.svg" alt="Paypal"></div>
+                            <div class="info">
+                                <p class="from">deposit paypal</p>
+                                <p class="date">25 january 2021</p>
+                            </div>
+                            <span>+$5,400</span>
+                        </div>
+                        <div class="receve">
+                            <div class="image"><img src="image/Vector2.svg" alt="Paypal"></div>
+                            <div class="info">
+                                <p class="from">jemi wilson</p>
+                                <p class="date">21 january 2021</p>
+                            </div>
+                            <span>+$5,400</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="info2">
+                <section class="activity">3</section>
+                <section class="statistics">4</section>
+            </div>
+            <div class="info3">
+                <section class="transfer">5</section>
+                <section class="history">
+                    <p>balance history</p>
+                    <div id="chart">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div >
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
