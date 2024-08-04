@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -253,7 +254,7 @@ header img[alt="profile-image"]{
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 12px;
     font-weight: normal;
 }
@@ -263,6 +264,7 @@ header img[alt="profile-image"]{
 .head .money p strong{
     font-size: 20px;
     font-weight: 600;
+    font-family: "Lato";
 }
 .head .ownerInfo{
     display: flex;
@@ -277,11 +279,13 @@ header img[alt="profile-image"]{
     color: white;
     font-size: 15px;
     font-weight: 600;
+    font-family: "Lato";
     text-transform: capitalize;
 }
 .head .ownerInfo p span{
-    font-weight: normal;
+    font-family: "Lato";
     text-transform: uppercase;
+    
 }
 .footer{
     display: flex;
@@ -297,7 +301,7 @@ header img[alt="profile-image"]{
 }
 .footer p{
     color: white;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 22px;
     font-weight: 600;
 }
