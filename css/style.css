@@ -480,4 +480,133 @@ header img[alt="profile-image"]{
     color: #718EBF;
     font-size: 13px;
 }
-/* End Transactions  Page */
+/* Start Recent Transaction Section */
+.transactions-page .holder .recent-transaction h2 {
+    font-size: 22px;
+    color: #343C6A;
+    margin: 20px 0;
+}
+.transactions-page .holder .recent-transaction .sections {
+    border-bottom: 1px solid #EBEEF2;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: flex;
+}
+.transactions-page .holder .recent-transaction .sections span {
+    color: #718EBF;
+    font-weight: 500;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+.transactions-page .holder .recent-transaction .sections span:hover {
+    color: #1814F3;
+}
+.transactions-page .holder .recent-transaction .sections span.on {
+    color: #1814F3;
+    position: relative;
+}
+.transactions-page .holder .recent-transaction .sections span.on::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    border-radius: 10px 10px 0 0;
+    background-color: #1814F3;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}
+.transactions-page .holder .recent-transaction table {
+    padding: 20px;
+    border-radius: 25px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.transactions-page .holder .recent-transaction table td {
+    padding: 15px 0;
+    border-bottom: 1px solid #F2F4F7;
+}
+.transactions-page .holder .recent-transaction table thead td {
+    color: #718EBF;
+    font-weight: 500;
+}
+.transactions-page .holder .recent-transaction table tbody tr td:first-of-type {
+    display: flex;
+    align-items: center;
+}
+.transactions-page .holder .recent-transaction table tbody td .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #718EBF;
+    margin-right: 10px;
+}
+.transactions-page .holder .recent-transaction table tbody tr .amount.red {
+    color: #FE5C73;
+}
+.transactions-page .holder .recent-transaction table tbody tr .amount.green {
+    color: #16DBAA;
+}
+.transactions-page .holder .recent-transaction table tbody .button {
+    font-size: 15px;
+    color: #123288;
+    width: 100px;
+    height: 35px;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #123288;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.transactions-page .holder .recent-transaction table tbody .button:hover {
+    color: #1814F3;
+    border-color: #1814F3;
+}
+.transactions-page .holder .recent-transaction table tbody .button.special {
+    color: #1814F3;
+    border-color: #1814F3;
+}
+.transactions-page .holder .recent-transaction .page-overview {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0 0 0 auto;
+    width: fit-content;
+}
+.transactions-page .holder .recent-transaction .page-overview div {
+    display: flex;
+    align-items: center;
+}
+.transactions-page .holder .recent-transaction .page-overview span {
+    color: #1814F3;
+    font-size: 15px;
+    font-weight: 500;
+}
+.transactions-page .holder .recent-transaction .page-overview .p-numbers {
+    margin: 0 10px;
+}
+.transactions-page .holder .recent-transaction .page-overview .p-numbers span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.transactions-page .holder .recent-transaction .page-overview .p-numbers .selected {
+    color: white;
+    background-color: #1814F3;
+}
+.transactions-page .holder .recent-transaction .page-overview .previous img {
+    margin-right: 5px;
+}
+.transactions-page .holder .recent-transaction .page-overview .next img {
+    margin-left: 5px;
+}
+/* End Transactions Page */
